@@ -1,0 +1,140 @@
+#MainWindow {
+    background-color: #e9ecef;
+}
+
+#MainWindow QPushButton {
+    border-radius: 5px;
+}
+
+#full_menu, #icon_menu {
+    background-color: #fff;
+}
+
+#full_menu QLabel, #icon_menu QLabel {
+    color: #3b82f6;
+}
+
+#full_menu QPushButton, #icon_menu QPushButton {
+    border: none;
+    font-weight: 600;
+    color: #333;
+}
+
+#full_menu QPushButton:hover, #icon_menu QPushButton:hover {
+    background-color: #dee2e6;
+}
+
+#full_menu QPushButton:checked {
+    color: #3b82f6;
+    background-color: #ced4da;
+}
+
+#icon_menu QPushButton:checked {
+    background-color: #ced4da;
+}
+
+#header_widget {
+    background-color: qlineargradient(spread:pad, x1:0.7875, y1:0.607, x2:0.402, y2:0.373136, stop:0.301136 rgba(59, 130, 246, 255), stop:0.954545 rgba(55, 161, 255, 255));
+}
+
+#header_widget QLabel {
+    color: #fff;
+}
+
+#header_widget QPushButton {
+    border: none;
+}
+
+#stackedWidget QListWidget {
+    background-color: #e9ecef;
+    border: none;
+}
+
+#stackedWidget QListWidget::item {
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 7px;
+}
+
+#item_list_widget {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+#item_list_widget QWidget {
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+#item_list_widget QCheckBox {
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#item_list_widget QCheckBox::indicator {
+    height: 20px;
+    width: 20px;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#item_list_widget QCheckBox::indicator:hover {
+    border: 1px solid #3b82f6;
+}
+
+#item_list_widget QCheckBox::indicator:checked {
+    image: url(resources/check.svg);
+}
+
+#item_list_widget QPushButton {
+    border: none;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#item_list_widget QPushButton:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+#task_form {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #e9ecef;
+}
+
+#task_form:focus {
+    border: 4px solid rgba(90, 192, 255, 0.4);
+}
+
+#task_submit {
+    background-color: #198754;
+    color: #fff;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#task_submit:hover {
+    background-color: #146c43;
+    color: #fff;
+}
+
+#error_label {
+    font: 20pt "Trebuchet MS";
+    color: rgba(255, 0, 0, 0.7);
+}
+
+#empty {
+    font: 20pt "Trebuchet MS";
+    color: #777;
+    padding: 30px;
+}
+
+#add_task_widget {
+    background-color: #fff;
+}

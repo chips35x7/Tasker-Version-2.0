@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="feather icons">
+    <file>feather icons/bookmark.svg</file>
+    <file>feather icons/check-circle.svg</file>
+    <file>feather icons/plus-circle.svg</file>
+    <file>feather icons/x-circle.svg</file>
+    <file>feather icons/x-square.svg</file>
+    <file>feather icons/menu.svg</file>
+    <file>feather icons/save.svg</file>
+  </qresource>
+</RCC>
