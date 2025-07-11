@@ -5,6 +5,9 @@ Track your tasks, mark them complete, and stay organized — all with a clean an
 
 ---
 
+📷 App Screenshot
+<img width="1920" height="992" alt="Tasker" src="https://github.com/user-attachments/assets/03766f44-5172-4b10-9519-db2a8a623ad9" />
+
 ## 🚀 Features
 
 - Add new tasks
@@ -49,6 +52,3 @@ If you're using Windows and prefer to run the game without installing Python or 
 Navigate to the dist/ folder in this repository.
 Run the file:
 Tasker.v.2.0.exe
-
-📷 App Screenshot
-<img width="1920" height="992" alt="Tasker" src="https://github.com/user-attachments/assets/03766f44-5172-4b10-9519-db2a8a623ad9" />
