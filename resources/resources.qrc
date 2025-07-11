@@ -1,5 +1,13 @@
 <RCC>
   <qresource prefix="feather icons">
+    <file>trash.svg</file>
+    <file>trash-2.svg</file>
+    <file>airplay.svg</file>
+    <file>alert-circle.svg</file>
+    <file>alert-octagon.svg</file>
+    <file>delete.svg</file>
+    <file>menu.svg</file>
+    <file>save.svg</file>
     <file>feather icons/bookmark.svg</file>
     <file>feather icons/check-circle.svg</file>
     <file>feather icons/plus-circle.svg</file>

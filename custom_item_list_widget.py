@@ -18,13 +18,14 @@ class ItemListWidget(QScrollArea):
         self.setObjectName('item_list_widget')
         self.setWidgetResizable(True)
         self.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
+        self.setVerticalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
 
         container = QWidget()
 
         self.item_checkbox = QCheckBox(task)
         self.item_checkbox.setChecked(status)
         self.delete_button = QPushButton('Delete Task')
-        self.delete_button.setIcon(QIcon(resource_path('resources/delete.png')))
+        self.delete_button.setIcon(QIcon(resource_path('resources/trash-2.svg')))
         self.delete_button.setIconSize(QSize(20, 20))
 
         layout = QVBoxLayout()
